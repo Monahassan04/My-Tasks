@@ -1,0 +1,12 @@
+.add-form { border: 1px solid #ccc; padding: 1rem; margin-bottom: 1rem; }
+.add-form form div { margin: 0.5rem 0; }
+.controls { display: flex; gap: 2rem; margin-bottom: 1rem; }
+.controls button.active { background: #007bff; color: white; }
+.card-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem; }
+.card { border: 1px solid #ddd; padding: 1rem; border-radius: 8px; background: #f9f9f9; }
+.card.unavailable { background: #ffe6e6; border-color: #ff9999; }
+.card .actions { margin-top: 0.5rem; display: flex; gap: 0.5rem; }
+.list-view li { display: flex; align-items: center; gap: 1rem; padding: 0.5rem; border-bottom: 1px solid #eee; }
+.list-view li.unavailable { background: #ffe6e6; }
+.remove { background: #dc3545; color: white; border: none; padding: 0.2rem 0.6rem; border-radius: 4px; cursor: pointer; }
+.empty { font-style: italic; color: #888; }
